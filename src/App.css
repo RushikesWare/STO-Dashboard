@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Body {
+  position: absolute;
+  display: inline-block;
+  transition: margin 0.3s;
+  width: -webkit-fill-available;
+}
+
+h1 {
+  margin-top: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Rushikesh css */
+
+.main-container {
+  margin: 0px 50px;
+}
+
+
+.availblityTable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.availblityTable td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.availblityTable tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.availblityTable tr td:first-child {
+  width: auto;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+
+}
+a {
+  text-decoration: none;
+}
+.availblityTable th {
+  background-color: rgba(58, 72, 230, 0.83);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.availblityTable caption {
+  background-color: rgba(58, 72, 230, 0.83);
+  color: #fff;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 4px;
+}
+
+.ragStatus span {
+  margin: 0px 20px -40px -30px;
+
+}
+
+.yellow {
+  background-color: yellow;
+  height: 30px;
+  border-radius: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+.green {
+  background-color: green;
+  height: 30px;
+  border-radius: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+  height: 30px;
+  border-radius: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+.warning {
+  background-color: yellow;
+  height: 30px;
+  border-radius: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+.pageName {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.ragStatus {
+  position: absolute;
+  right: 47px;
+  margin-top: -7%;
+  padding-left: 40px;
+  padding-right: 30px;
+  background-color: rgba(58, 72, 230, 0.83);
+  color: #fff;
+}
+
+.defination {
+  width: 40%;
+  margin-top: 10%;
+  float: right;
+  position: relative;
+}
+
+.LeftLayout {
+  display: inline-block;
+}
+
+.RightLayout {
+  display: inline-block;
+  text-align: center;
+}
+
+.sidebar {
+  display: flex;
+  height: 100vh;
+}
+
+.css-ewdv3l {
+  height: 70vh;
+}
+
+.css-dip3t8 {
+  background-color: #1976d2 !important;
+}
+
+.guidelineBtn {
+  margin-top: 10% !important;
+}
+.css-1k88rtw {
+  color: #000;
+}
+
+.css-11f023a:hover {
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.sto-logo {
+  color: linear-gradient(330.35deg,#53006A 52.48%,#8E349D 81.46%) !important;
+  font-size: 25px;
+  
+}

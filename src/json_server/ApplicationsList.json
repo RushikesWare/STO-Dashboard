@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "applicationName": "Apigee API Platform",
+    "applicationInfo": " ",
+    "icon": "ScreenshotMonitorIcon",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Apigee API Platform"
+    }
+  },
+  {
+    "id": 2,
+    "applicationName": "ASAP",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "ASAP"
+    }
+  },
+  {
+    "id": 3,
+    "applicationName": "Automic",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Automic"
+    }
+  },
+  {
+    "id": 4,
+    "applicationName": "BRM",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "BRM"
+    }
+  },
+  {
+    "id": 5,
+    "applicationName": "DAS - Data Access Service",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "DAS - Data Access Service"
+    }
+  },
+  {
+    "id": 6,
+    "applicationName": "DAS - Fusion",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "DAS - Fusion"
+    }
+  },
+  {
+    "id": 7,
+    "applicationName": "DAS - Sibel",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "DAS - Sibel"
+    }
+  },
+  {
+    "id": 8,
+    "applicationName": "Digital First - AEM",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Digital First - AEM"
+    }
+  },
+  {
+    "id": 9,
+    "applicationName": "Digital First - CPQ",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Digital First - CPQ"
+    }
+  },
+  {
+    "id": 10,
+    "applicationName": "Digital First - Velocity",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Digital First - Velocity"
+    }
+  },
+  {
+    "id": 11,
+    "applicationName": "Digital First - VFE",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Digital First - VFE"
+    }
+  },
+  {
+    "id": 12,
+    "applicationName": "eMagine",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "eMagine"
+    }
+  },
+  {
+    "id": 13,
+    "applicationName": "Fusion MiddleWare",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Fusion MiddleWare"
+    }
+  },
+  {
+    "id": 14,
+    "applicationName": "Genesys PureEngage Cloud",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Genesys PureEngage Cloud"
+    }
+  },
+  {
+    "id": 15,
+    "applicationName": "Inteflow",
+    "applicationInfo": " ",
+    "icon": "test",
+    "to": "/snapshot",
+    "state": {
+      "headerName": "Inteflow"
+    }
+  }
+]

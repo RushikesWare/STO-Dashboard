@@ -1,0 +1,1121 @@
+[
+    {
+        "pageName": "Snapshot",
+        
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "green",
+                "definition": "Indicates that this is as per BAU"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "highlights a risk with this perticular metric"
+            },
+            "Green": {
+                "id": 3,
+                "color": "red",
+                "definition": "highlight an issue with this perticular metric"
+            }
+        }
+    },
+    {
+        "pageName": "Availability",
+        "ragStatusColor": "yellow",
+        "measurementHeading": "Availability Measurement",
+        "descHeading": "Description",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "availabilityMeasurement": {
+            "Availability": {
+                "id": 1,
+                "Measurement": "Availability (excluding planned downtime)",
+                "Description": "Percentage of Actual Uptime (in hours) of application relative to the total numbers of Planned Uptime* (in hours). *Planned Uptime = Service Hours – Planned Downtime"
+            },
+            "criticalTimeFailures": {
+                "id": 2,
+                "Measurement": "Critical Time Failures",
+                "Description": "Number of application failures during Critical Times*. *Critical Time is the time during which the application must be available"
+            }
+        },
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "Availability (excluding planned downtime) < SLA defined Availability, or Critical Time Failures >= 1"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "Availability (excluding planned downtime) < SLA defined, and Negligible business impact caused by one or more incidents of application downtimes "
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "Availability (excluding planned downtime) >= SLA defined Availability, and Critical Time Failures = 0"
+            }
+        }
+    },
+    {
+        "pageName": "Capacity",
+        "ragStatusColor": "yellow",
+        "measurementHeading": "Capacity KPI #",
+        "descHeading": "Capacity KPI Name",
+        "statusHeading": "Capacity KPI RAG Status",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "capacityMeasurement": [
+            {
+                "id": 1,
+                "capacityKpi": "KP1",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "warning"
+            },
+            {
+                "id": 2,
+                "capacityKpi": "KP2",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "warning"
+            },
+            {
+                "id": 3,
+                "capacityKpi": "KP3",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "warning"
+            },
+            {
+                "id": 4,
+                "capacityKpi": "KP4",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "green"
+            },
+            {
+                "id": 5,
+                "capacityKpi": "KP5",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "green"
+            },
+            {
+                "id": 6,
+                "capacityKpi": "KP6",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "warning"
+            },
+            {
+                "id": 7,
+                "capacityKpi": "KP7",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "warning"
+            },
+            {
+                "id": 8,
+                "capacityKpi": "KP8",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "warning"
+            },
+            {
+                "id": 9,
+                "capacityKpi": "KP9",
+                "capacityKpiName": " ",
+                "capacityKpiRAGStatus": "green"
+            }
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more Capacity KPIs RAG Status = ‘Red’"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more Capacity KPIs RAG Status = ‘Amber’, and Zero Capacity KPI RAG Status = ‘Red’"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "All Capacity KPIs RAG Status = ‘Green’"
+            }
+        }
+    },
+    {
+        "pageName": "Performance",
+        "ragStatusColor": "yellow",
+        "measurementHeading": "Performance Measurement",
+        "descHeading": "Description",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "performanceMeasurement": {
+            "Performance": {
+                "id": 1,
+                "Measurement": "Average Response Time (in seconds)",
+                "Description": "The time the application or server takes to respond to the requestor query."
+            }
+        },
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "Average Response time exceeds the control limits in SLA."
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "Average Response time closely reach but does not exceed the control limits in SLA."
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "Average Response time is below the control limits in SLA."
+            }
+        }
+    },
+    {
+        "pageName": "Security",
+        "ragStatusColor": "yellow",
+        "securityHeading": "Security-related risk #",
+        "migrationHeading": "Mitigated?",
+        "descHeading": "Description",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "capacityMeasurement": [
+            {
+                "id": 1,
+                "relatedRisk": "RSK0000000xxxxx",
+                "isMitigated": "Yes/No",
+                "description": " "
+            },
+            {
+                "id": 1,
+                "relatedRisk": "RSK0000000xxxxx",
+                "isMitigated": "Yes/No",
+                "description": " "
+            },
+            {
+                "id": 1,
+                "relatedRisk": "RSK0000000xxxxx",
+                "isMitigated": "Yes/No",
+                "description": " "
+            }
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more Capacity KPIs RAG Status = ‘Red’"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more Capacity KPIs RAG Status = ‘Amber’, and Zero Capacity KPI RAG Status = ‘Red’"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "All Capacity KPIs RAG Status = ‘Green’"
+            }
+        }
+    },
+    {
+        "pageName": "Risk Analysis",
+        "ragStatusColor": "red",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "riskHeading": [
+            "Risk ID",
+            "Description",
+            "Identification Source",
+            "Likelihood",
+            "Impact",
+            "Priority Code",
+            "Priority",
+            "Counter Measures",
+            "Risk mitigated?",
+            "riskOwner"
+        ],
+        "riskAnalysisData": [
+            {
+                "riskId": "RSK0000001xxxxx",
+                "description": "   ",
+                "idSource": "Service tickets, Team, Product Docs, Online Resources, or Others ",
+                "likelihood": "Medium",
+                "impact": "High",
+                "priorityCode": "2",
+                "priority": "High",
+                "counterMeasures": " ",
+                "riskMitigated": "Yes/No",
+                "riskOwner": " "
+            },
+            {
+                "riskId": "RSK0000002xxxxx",
+                "description": "   ",
+                "idSource": "Service tickets, Team, Product Docs, Online Resources, or Others ",
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": "1",
+                "priority": "Medium",
+                "CcunterMeasures": " ",
+                "riskMitigated": "Yes/No",
+                "riskOwner": " "
+            },
+            {
+                "riskId": "RSK0000003xxxxx",
+                "description": "   ",
+                "idSource": "Service tickets, Team, Product Docs, Online Resources, or Others ",
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": "4",
+                "priority": "High",
+                "CcunterMeasures": " ",
+                "riskMitigated": "Yes/No",
+                "riskOwner": " "
+            },
+            {
+                "riskId": "RSK0000004xxxxx",
+                "description": "   ",
+                "idSource": "Service tickets, Team, Product Docs, Online Resources, or Others ",
+                "likelihood": "Medium",
+                "impact": "High",
+                "priorityCode": "6",
+                "priority": "Critical",
+                "CcunterMeasures": " ",
+                "riskMitigated": "Yes/No",
+                "riskOwner": " "
+            }
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more critical or high priority (P1 or P2) risks not mitigated."
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more medium priority (P3) risks not mitigated."
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "1. No risks identified or 2. One or more low or very low priority (P4 or P5) risks not mitigated’"
+            }
+        }
+    },
+    {
+        "pageName": "Issues",
+        "ragStatusColor": "yellow",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "issueHeading": [
+            "Issue ID",
+            "Issue (Ongoing Problem) Description",
+            "Business Impact Description",
+            "Priority",
+            "Recommendation",
+            "Next Action Assignee"
+        ],
+        "issueData": [
+            {
+                "issueId": "RSK0000001xxxxx",
+                "issueDescription": "   ",
+                "businessImpactDescription": " ",
+                "Priority": "P1",
+                "Recommendation": "High",
+                "nextActionAssignee": " "
+            },
+            {
+                "issueId": "RSK0000002xxxxx",
+                "issueDescription": "   ",
+                "businessImpactDescription": " ",
+                "Priority": "P2",
+                "Recommendation": "High",
+                "nextActionAssignee": " "
+            },
+            {
+                "issueId": "RSK0000003xxxxx",
+                "issueDescription": "   ",
+                "businessImpactDescription": " ",
+                "Priority": "P3",
+                "Recommendation": "High",
+                "nextActionAssignee": " "
+            },
+            {
+                "issueId": "RSK0000004xxxxx",
+                "issueDescription": "   ",
+                "businessImpactDescription": " ",
+                "Priority": "P5",
+                "Recommendation": "High",
+                "nextActionAssignee": " "
+            }
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more P1 issues, or One or more P2 issues"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more P3 issues"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "One or more P4 issues, or One or more P5 issues"
+            }
+        }
+    },
+    {
+        "pageName": "Issue Prioritisation Guideline",
+        "guidelineHeading": [
+            "Priority Code (P)",
+            "Description"
+        ],
+        "guidelineData": [
+            {
+                "priorityCode": "P1",
+                "description": "A complete application-down situation or single critical component down with high financial impact"
+            },
+            {
+                "priorityCode": "P2",
+                "description": "A major component of the application ability to operate is affected. Some aspects of the application can continue but its a major problem"
+            },
+            {
+                "priorityCode": "P3",
+                "description": "The core application is unaffected but the issue is affecting efficient operation by one or more application users"
+            },
+            {
+                "priorityCode": "P4",
+                "description": "The issue is an inconvenience or annoying but there are clear application workarounds or alternates"
+            },
+            {
+                "priorityCode": "P5",
+                "description": "The issue is a background or planned task and will be addressed when time permits or on the planned date"
+            }
+        ]
+    },
+    {
+        "pageName": "Risk Prioritisation Guideline",
+        "riskLikelihoodHeading": [
+            "Likelihood",
+            "Description"
+        ],
+        "riskLikelihoodData": [
+            {
+                "likelihood": "High",
+                "description": "Risk is highly time sensitive, or Risk is definite"
+            },
+            {
+                "likelihood": "Medium",
+                "description": "Risk is increasing over time, or Risk is certain"
+            },
+            {
+                "likelihood": "Low",
+                "description": "Risk is not time sensitive, or Risk uncertain"
+            }
+        ],
+        "riskImpactHeading": [
+            "Impact",
+            "Description"
+        ],
+        "riskImpactData": [
+            {
+                "impact": "High",
+                "description": "Large number of important users can be affected, or High financial/reputational impact may occur"
+            },
+            {
+                "impact": "Medium",
+                "description": "Moderate number of important users can be affected, or Medium financial/reputational impact may occur"
+            },
+            {
+                "impact": "Low",
+                "description": "Minimal number of important users can be affected, or Minimal financial/reputational impact may occur"
+            }
+        ],
+        "riskMatrixHeading": [
+            "Likelihood",
+            "Impact",
+            "Priority Code",
+            "Priority Description"
+        ],
+        "riskMatrixData": [
+            {
+                "id": 1,
+                "likelihood": "High",
+                "impact": "High",
+                "priorityCode": 1,
+                "priorityDescription": "Critical"
+            },
+            {
+                "id": 2,
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": 2,
+                "priorityDescription": "High"
+            },
+            {
+                "id": 3,
+                "likelihood": "Medium",
+                "impact": "High",
+                "priorityCode": 2,
+                "priorityDescription": "High"
+            },
+            {
+                "id": 4,
+                "likelihood": "Medium",
+                "impact": "Medium",
+                "priorityCode": 1,
+                "priorityDescription": "Critical"
+            },
+            {
+                "id": 5,
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": 3,
+                "priorityDescription": "Medium"
+            },
+            {
+                "id": 6,
+                "likelihood": "High",
+                "impact": "Low",
+                "priorityCode": 1,
+                "priorityDescription": "Medium"
+            },
+            {
+                "id": 7,
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": 1,
+                "priorityDescription": "Critical"
+            },
+            {
+                "id": 8,
+                "likelihood": "Medium",
+                "impact": "High",
+                "priorityCode": 1,
+                "priorityDescription": "Low"
+            },
+            {
+                "id": 9,
+                "likelihood": "Low",
+                "impact": "Medium",
+                "priorityCode": 1,
+                "priorityDescription": "High"
+            }
+        ]
+    },
+    {
+        "pageName": "Snapshot: RAG Definitions",
+        "ragDefinitionHeading": "RAG Definitions",   
+        "ragAvailabilityData": [
+            {
+                "color": "red",
+                "description": "Measured Availability < Agreed Availability, or Serious business impact caused by one or more incidents of application downtimes exceeding the SLA, or One or more incidents of application interruptions exceeding the OLA."
+            },
+            {
+                "color": "warning",
+                "description": "Negligible business impact caused by one or more incidents of application downtimes exceeding the SLA or one or more incidents of application interruptions exceeding the OLA."
+            },
+            {
+                "color": "green",
+                "description": "Measured Availability > Agreed Availability, and No application downtimes and no application interruptions."
+            }
+        ],
+        "ragPerformanceData": [
+            {
+                "color": "red",
+                "description": "Average Response time exceeds the control limits in SLA."
+            },
+            {
+                "color": "warning",
+                "description": "Average Response time closely reach but does not exceed the control limits in SLA"
+            },
+            {
+                "color": "green",
+                "description": "Average Response time is below the control limits in SLA."
+            }
+        ],
+        "ragCapacityData": [
+            {
+                "color": "red",
+                "description": "One or more Capacity KPIs RAG Status = ‘Red’"
+            },
+            {
+                "color": "warning",
+                "description": "One or more Capacity KPIs RAG Status = ‘Amber’, and Zero Capacity KPI RAG Status = ‘Red’"
+            },
+            {
+                "color": "green",
+                "description": "All Capacity KPIs RAG Status = ‘Green’"
+            }
+        ],
+        "ragSecurityData": [
+            {
+                "color": "red",
+                "description": "One or more security-related critical-priority risks not mitigated, or One more security-related high-priority risks not mitigated"
+            },
+            {
+                "color": "warning",
+                "description": "One or more security-related medium-priority risks not mitigated"
+            },
+            {
+                "color": "green",
+                "description": "One or more security-related low-priority risks not mitigated, or No security-related risks"
+            }
+        ],
+        "ragP1P2IncidentsData": [
+            {
+                "color": "red",
+                "description": "One or more P1 incidents"
+            },
+            {
+                "color": "warning",
+                "description": "One or more P2 incidents"
+            },
+            {
+                "color": "green",
+                "description": "Zero P1/P2 incidents"
+            }
+        ],
+        "ragRCAsData": [
+            {
+                "color": "red",
+                "description": "One more RCAs have an impact Assessment of ‘Critical’ or ‘High’."
+            },
+            {
+                "color": "warning",
+                "description": "One more RCAs have an impact Assessment of ‘Medium’."
+            },
+            {
+                "color": "green",
+                "description": "All RCAs have an impact Assessment of ‘Low’."
+            }
+        ],
+        "ragRisksData": [
+            {
+                "color": "red",
+                "description": "One or more critical or high priority risks not mitigated"
+            },
+            {
+                "color": "warning",
+                "description": "One or more medium priority risks not mitigated"
+            },
+            {
+                "color": "green",
+                "description": "Zero or more low or very low priority risks not mitigated"
+            }
+        ],
+        "ragIssuesData": [
+            {
+                "color": "red",
+                "description": "One or more P1 or P2 issues"
+            },
+            {
+                "color": "warning",
+                "description": "One or more P3 issues"
+            },
+            {
+                "color": "green",
+                "description": "Zero or more P4/P5 issues"
+            }
+        ],
+        "ragPKEsData": [
+            {
+                "color": "red",
+                "description": "One or more unassigned PKEs and Ageing > OLA threshold One or more assigned PKEs, Pending/In-Progress and Ageing > OLA threshold"
+            },
+            {
+                "color": "warning",
+                "description": "One or more assigned PKEs, In-Progress, and Ageing > OLA threshold"
+            },
+            {
+                "color": "green",
+                "description": "Zero unassigned PKEs, or One or more assigned PKEs"
+            }
+        ],
+        "ragAppPatchingData": [
+            {
+                "color": "red",
+                "description": "One or more critical App patches pending"
+            },
+            {
+                "color": "warning",
+                "description": "One or more regular update App patches pending"
+            },
+            {
+                "color": "green",
+                "description": "Zero pending App patches"
+            }
+        ],
+        "ragOsPatchingData": [
+            {
+                "color": "red",
+                "description": "One or more critical OS patches pending"
+            },
+            {
+                "color": "warning",
+                "description": "One or more regular update OS patches pending"
+            },
+            {
+                "color": "green",
+                "description": "Zero pending OS patches"
+            }
+        ],
+        "ragDBPatchingData": [
+            {
+                "color": "red",
+                "description": "One or more critical DB patches pending"
+            },
+            {
+                "color": "warning",
+                "description": "One or more regular update DB patches pending"
+            },
+            {
+                "color": "green",
+                "description": "Zero pending DB patches"
+            }
+        ],
+        "ragDeploymentRDData": [
+            {
+                "color": "red",
+                "description": "One or more scheduled initiatives not deployed yet"
+            },
+            {
+                "color": "warning",
+                "description": "One or more scheduled initiatives to be re-scheduled"
+            },
+            {
+                "color": "green",
+                "description": "Zero scheduled initiatives not deployed yet, or Zero scheduled initiatives to be re-scheduled."
+            }
+        ],
+        "ragHealthChecksData": [
+            {
+                "color": "red",
+                "description": "One ore more Health Checks Evaluation is ‘Red’. "
+            },
+            {
+                "color": "warning",
+                "description": "One ore more Health Checks Evaluation is ‘Amber’. "
+            },
+            {
+                "color": "green",
+                "description": "All Health Check Evaluations are ‘Green’."
+            }
+        ],
+        "ragL2L3SupportData": [
+            {
+                "color": "red",
+                "description": "One or more L3 Team members with Remaining TCS Tenure or TPG Tenure <= 1 week, or One or more L2 Team members with Remaining TCS Tenure or TPG Tenure <= 1 week"
+            },
+            {
+                "color": "warning",
+                "description": "One or more L3 Team members with Remaining TCS Tenure or TPG Tenure <= 1 month and > 1 week, or One or more L2 Team members with Remaining TCS Tenure or TPG Tenure <= 1 month and > 1 week"
+            },
+            {
+                "color": "green",
+                "description": "One or more L3 Team members with Remaining TCS Tenure or TPG Tenure >= 1 month, or One or more L2 Team members with Remaining TCS Tenure or TPG Tenure >= 1 month"
+            }
+        ],
+        "ragEolEosData": [
+            {
+                "color": "red",
+                "description": "Application is ‘Active’, and One or more elements (Database, Infrastructure, OS, Application) are either ‘EOS’ or ‘EOL’, and Risk raised = ‘No’"
+            },
+            {
+                "color": "warning",
+                "description": "Application is ‘Active’, and  One or more elements (Database, Infrastructure, OS, Application) are either ‘EOS’ or ‘EOL’, and Risk raised = ‘Yes’"
+            },
+            {
+                "color": "green",
+                "description": "Application is ‘Decommissioned’, or All elements are neither EOL nor EOS"
+            }
+        ]
+    },
+    {
+        "pageName": "Critical Priority Incidents (P1)",
+        "ragStatusColor": "red",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "criticalPriorityP1Heading": [
+            "Incident ID",
+            "Urgency",
+            "Impact",
+            "Priority",
+            "Description",
+            "Date",
+            "Frequency",
+            "Duration (Mins)"
+        ],
+        "criticalPriorityP1AnalysisData": [
+            {
+                "incidentId": "RSK0000001xxxxx",
+                "urgency": "High",
+                "impact": "High",
+                "priority": "P1",
+                "description": " ",
+                "date": " ",
+                "frequency": " ",
+                "duration": "  "
+            },
+            {
+                "incidentId": "RSK0000002xxxxx",
+                "urgency": "High",
+                "impact": "High",
+                "priority": "P1",
+                "description": " ",
+                "date": " ",
+                "frequency": " ",
+                "duration": "  "
+            },
+            {
+                "incidentId": "RSK0000003xxxxx",
+                "urgency": "High",
+                "impact": "High",
+                "priority": "P1",
+                "description": " ",
+                "date": " ",
+                "frequency": " ",
+                "duration": "  "
+            }
+
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more P1 incidents, and Frequency > 1"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more P1 incidents, and Frequency = 1"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "Zero P1 incidents "
+            }
+        }
+    },
+    {
+        "pageName": "High-Priority Incidents (P2)",
+        "ragStatusColor": "red",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "priorityP2Heading": [
+            "Incident ID",
+            "Urgency",
+            "Impact",
+            "Priority",
+            "Description",
+            "Date",
+            "Frequency",
+            "Duration (Mins)"
+        ],
+        "priorityP2AnalysisData": [
+            {
+                "incidentId": "RSK0000001xxxxx",
+                "urgency": "High, Medium",
+                "impact": "High, Medium",
+                "priority": "P2",
+                "description": " ",
+                "date": " ",
+                "frequency": " ",
+                "duration": "  "
+            },
+            {
+                "incidentId": "RSK0000002xxxxx",
+                "urgency": "High, Medium",
+                "impact": "High, Medium",
+                "priority": "P2",
+                "description": " ",
+                "date": " ",
+                "frequency": " ",
+                "duration": "  "
+            },
+            {
+                "incidentId": "RSK0000003xxxxx",
+                "urgency": "High, Medium",
+                "impact": "High, Medium",
+                "priority": "P2",
+                "description": " ",
+                "date": " ",
+                "frequency": " ",
+                "duration": "  "
+            }
+
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more P2 incidents, and Frequency > 1"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more P2 incidents, and Frequency = 1"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "Zero P2 incidents "
+            }
+        }
+    },
+    {
+        "pageName": "Incident Prioritisation Guideline",
+        "incidentLikelihoodHeading": [
+            "Urgency",
+            "Description"
+        ],
+        "incidentLikelihoodData": [
+            {
+                "likelihood": "High",
+                "description": "incident is highly time sensitive, or incident is definite"
+            },
+            {
+                "likelihood": "Medium",
+                "description": "incident is increasing over time, or incident is certain"
+            },
+            {
+                "likelihood": "Low",
+                "description": "incident is not time sensitive, or incident uncertain"
+            }
+        ],
+        "incidentImpactHeading": [
+            "Impact",
+            "Description"
+        ],
+        "incidentImpactData": [
+            {
+                "impact": "High",
+                "description": "Large number of important users can be affected, or High financial/reputational impact may occur"
+            },
+            {
+                "impact": "Medium",
+                "description": "Moderate number of important users can be affected, or Medium financial/reputational impact may occur"
+            },
+            {
+                "impact": "Low",
+                "description": "Minimal number of important users can be affected, or Minimal financial/reputational impact may occur"
+            }
+        ],
+        "incidentMatrixHeading": [
+            "Urgency",
+            "Impact",
+            "Priority Code",
+            "Priority Description"
+        ],
+        "incidentMatrixData": [
+            {
+                "id": 1,
+                "likelihood": "High",
+                "impact": "High",
+                "priorityCode": 1,
+                "priorityDescription": "Critical"
+            },
+            {
+                "id": 2,
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": 2,
+                "priorityDescription": "High"
+            },
+            {
+                "id": 3,
+                "likelihood": "Medium",
+                "impact": "High",
+                "priorityCode": 2,
+                "priorityDescription": "High"
+            },
+            {
+                "id": 4,
+                "likelihood": "Medium",
+                "impact": "Medium",
+                "priorityCode": 1,
+                "priorityDescription": "Critical"
+            },
+            {
+                "id": 5,
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": 3,
+                "priorityDescription": "Medium"
+            },
+            {
+                "id": 6,
+                "likelihood": "High",
+                "impact": "Low",
+                "priorityCode": 1,
+                "priorityDescription": "Medium"
+            },
+            {
+                "id": 7,
+                "likelihood": "High",
+                "impact": "Medium",
+                "priorityCode": 1,
+                "priorityDescription": "Critical"
+            },
+            {
+                "id": 8,
+                "likelihood": "Medium",
+                "impact": "High",
+                "priorityCode": 1,
+                "priorityDescription": "Low"
+            },
+            {
+                "id": 9,
+                "likelihood": "Low",
+                "impact": "Medium",
+                "priorityCode": 1,
+                "priorityDescription": "High"
+            }
+        ]
+    },
+    {
+        "pageName": "High Priority PKEs",
+        "ragStatusColor": "yellow",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "PKEsHeading": [
+            "PKE Number",
+            "Identified Problem ID",
+            "Problem Diagnosis",
+            "Ageing (in days)",
+            "Assignment Status",
+            "Progress Status",
+            "Assignee"
+        ],
+        "PKEsData": [
+            {
+                "PKENumber": "PKE0000000xxxxx",
+                "problemId": "PR0000000xxxxx",
+                "problemDiagnosis": " ",
+                "ageing": " ",
+                "assignmentStatus": "Assigned, Unassigned",
+                "progressStatus": "Not Started, In-progress, Pending, Complete",
+                "assignee":" "
+            }
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more unassigned PKEs, Progress Status = ‘Not Started’ and Ageing > OLA threshold One or more assigned PKEs, Progress Status = ‘Pending’/’In-Progress’ and Ageing >OLA threshold"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more assigned PKEs, Progress Status = ‘In-Progress’, and Ageing > OLA threshold"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "Zero unassigned PKEs, or One or more assigned PKEs"
+            }
+        }
+    },
+    {
+        "pageName": "RCAs",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "RCAsHeading": [
+            "Event Type",
+            "Incident/Problem/PKE ID",
+            "Date",
+            "Time"
+        ],
+        "RCAsData": [
+            {
+                "eventType": "E.g. Security breach",
+                "pkeId": "I0000000xxxxx",
+                "date": " ",
+                "time": " "
+
+            },
+            {
+                "eventType": " ",
+                "pkeId": "PR0000001xxxxx",
+                "date": " ",
+                "time": " "
+
+            },
+            {
+                "eventType": " ",
+                "pkeId": "PKE0000002xxxxx",
+                "date": " ",
+                "time": " "
+
+            }
+        ],
+        "RcaAssignmentHeading": [
+            "RCA",
+            "Assignment Status",
+            "Assignee",
+            "Ageing (in days)",
+            "RCA Status"
+        ],
+        "RcaAssignmentData": [
+            {
+                "RCA": 1,
+                "assignmentStatus": "Assigned, Unassigned",
+                "assignee": " ",
+                "ageing": " ",
+                "RCAStatus": "In-progress, Pending, Complete "
+            },
+            {
+                "RCA": 2,
+                "assignmentStatus": "Assigned, Unassigned",
+                "assignee": " ",
+                "ageing": " ",
+                "RCAStatus": "In-progress, Pending, Complete "
+            }
+        ],
+        "timelineEventsHeading": [
+            "Date",
+            "Time",
+            "Description"
+        ],
+        "timelineEventsData": [
+            {
+                "id": 1,
+                "Date": " ",
+                "Time": " ",
+                "Description": " "
+            },
+            {
+                "id": 1,
+                "Date": " ",
+                "Time": " ",
+                "Description": " "
+            },
+            {
+                "id": 1,
+                "Date": " ",
+                "Time": " ",
+                "Description": " "
+            }
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "One or more unassigned PKEs, Progress Status = ‘Not Started’ and Ageing > OLA threshold One or more assigned PKEs, Progress Status = ‘Pending’/’In-Progress’ and Ageing >OLA threshold"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "One or more assigned PKEs, Progress Status = ‘In-Progress’, and Ageing > OLA threshold"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "Zero unassigned PKEs, or One or more assigned PKEs"
+            }
+        }
+    }
+]
