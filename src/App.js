@@ -45,7 +45,7 @@ function App() {
           <Route exact path='/allInOneDashboard' element={< AllInOneDashboard />}></Route>
           <Route exact path='/settings' element={< Settings />}></Route>
           <Route exact path='/signout' element={< Signout />}></Route>
-          <Route exact path='/' element={<Dashboard/>}></Route>
+          <Route exact path='/Dashboard' element={<Dashboard/>}></Route>
           <Route exact path='/snapshot/availability' element={< Availability />}></Route>
           <Route exact path='/snapshot/performance' element={< Performance />}></Route>
           <Route exact path='/snapshot/capacity' element={< Capacity />}></Route>

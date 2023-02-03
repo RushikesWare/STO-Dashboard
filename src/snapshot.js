@@ -17,10 +17,10 @@ function Snapshot(props) {
 	const location = useLocation();
 	const headerName = location.state?.headerName;
 	const rows = [
-		[{ name: 'Systems' }, { name: 'Availability', status: 'success', isLink: true, isLink: true }, { name: 'Performance', status: 'error', isLink: true, isLink: true }, { name: 'Capacity', status: 'success', isLink: true }, { name: 'Security', status: 'warning', isLink: true }],
-		[{ name: 'Operational' }, { name: 'P1/P2 Incidents', status: 'success', isLink: true }, { name: 'RCAs', status: 'error', isLink: true }, { name: 'Risks', status: 'success', isLink: true }, { name: 'Issues', status: 'warning', isLink: true }],
-		[{ name: 'Maintenance' }, { name: 'PKEs', status: 'success', isLink: true }, { name: 'App patching', status: 'error', isLink: true }, { name: 'OS patching', status: 'success', isLink: true }, { name: 'DB patching', status: 'warning', isLink: true }],
-		[{ name: 'Miscellaneous' }, { name: 'Deployment Roadmap', status: 'success', isLink: true }, { name: 'Health Checks', status: 'error', isLink: true }, { name: 'L2/L3 Support', status: 'success', isLink: true }, { name: 'EOL/EOS', status: 'warning', isLink: true }]
+		[{ name: 'Systems' }, { name: 'Availability', status: 'success', isLink: true, isLink: true }, { name: 'Performance', status: 'success', isLink: true, isLink: true }, { name: 'Capacity', status: 'success', isLink: true }, { name: 'Security', status: 'warning', isLink: true }],
+		[{ name: 'Operational' }, { name: 'P1/P2 Incidents', status: 'success', isLink: true }, { name: 'RCAs', status: 'success', isLink: true }, { name: 'Risks', status: 'success', isLink: true }, { name: 'Issues', status: 'warning', isLink: true }],
+		[{ name: 'Maintenance' }, { name: 'PKEs', status: 'success', isLink: true }, { name: 'App patching', status: 'success', isLink: true }, { name: 'OS patching', status: 'success', isLink: true }, { name: 'DB patching', status: 'warning', isLink: true }],
+		[{ name: 'Miscellaneous' }, { name: 'Deployment Roadmap', status: 'success', isLink: true }, { name: 'Health Checks', status: 'success', isLink: true }, { name: 'L2/L3 Support', status: 'success', isLink: true }, { name: 'EOL/EOS', status: 'warning', isLink: true }]
 	];
 	let trList = [];
 	for (const [i, row] of rows.entries()) {
@@ -52,7 +52,7 @@ function Snapshot(props) {
 
 	return (
 		<div>
-			<h1 style={{ textAlign: 'center', paddingTop:'20px'}}>{headerName} Snapshot</h1>
+			<h1 style={{ textAlign: 'center', paddingTop:'20px'}}>Application {headerName} Snapshot</h1>
 			<table>
 				<tbody>
 					{trList}

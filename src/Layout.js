@@ -35,7 +35,7 @@ function Layout(props) {
                     },
                 }}>
                 {/* <img style={{width: '20px'}} src = {Logo} alt="My Happy SVG"/> */}
-                     <MenuItem icon={<DashboardIcon/>}> <span className='sto-logo'>STO </span><span>Dashboard</span></MenuItem>
+                     <MenuItem icon={<DashboardIcon/>} onClick={() => navigate("/Dashboard")}> <span className='sto-logo'>STO </span><span>Dashboard</span></MenuItem>
                     <SubMenu label="Applications" icon={<AnalyticsIcon />}>
                         {
 

@@ -174,8 +174,8 @@ a {
   height: 70vh;
 }
 
-.css-dip3t8 {
-  background-color: #1976d2 !important;
+.css-dip3t8, .css-11f023a {
+  background: linear-gradient(1000.35deg,#53006A 10.48%,#8E349D 80.46%) !important;
 }
 
 .guidelineBtn {
@@ -194,4 +194,17 @@ a {
   color: linear-gradient(330.35deg,#53006A 52.48%,#8E349D 81.46%) !important;
   font-size: 25px;
   
+}
+.dashboard {
+  padding: 10px;
+}
+
+.tpg-logo {
+  width: 38%;
+    display: flex;
+    padding-top: 7px;
+
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+ background: linear-gradient(1000.35deg,#53006A 10.48%,#8E349D 80.46%);
 }
