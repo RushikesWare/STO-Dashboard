@@ -1,56 +1,61 @@
 .snapshot-table td {
-    padding: 5px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 2px rgb(0 0 0 / 40%);
-    border-radius: 12px;
-    height: 51px;
-    width: 20%;
+  padding: 5px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 40%);
+  border-radius: 12px;
+  height: 51px;
+  width: 20%;
 }
-.snapshot-table tr  {
-    margin: 10px;
+.snapshot-table tr {
+  margin: 10px;
 }
 .snapshot-table tr td:first-child {
-    width: 200px;
-    border: none;
-    padding: 0;
-    background: #FFFFFF;
-    box-shadow: none;
-    border-radius: none;
-    font-weight: 500;
+  width: 200px;
+  border: none;
+  padding: 0;
+  background: #ffffff;
+  box-shadow: none;
+  border-radius: none;
+  font-weight: 500;
 }
 
 table {
-    border-spacing: 10px 10px;
+  border-spacing: 10px 10px;
 }
 
 .StatusIcon {
-    padding: 5px;
-    border-radius: 50%;
-    border: 1px solid black;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    vertical-align: bottom;
-    margin-right: 10px;
-    margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
-.error {
-    background-color: red;
-    border-color: red;
+.error,
+.red {
+  background-color: red;
+  border-color: red;
 }
-
-.success {
-    background-color: green;
-    border-color: green;
-
+.success,
+.green {
+  background-color: green;
+  border-color: green;
+}
+.warning,
+.yellow {
+  background-color: yellow;
+  border-color: yellow;
 }
 
 .warning {
-    background-color: yellow;
-    border-color: yellow;
+  background-color: yellow;
+  border-color: yellow;
 }
 
 .css-i4bv87-MuiSvgIcon-root {
-    font-size: 16px !important;
+  font-size: 16px !important;
 }

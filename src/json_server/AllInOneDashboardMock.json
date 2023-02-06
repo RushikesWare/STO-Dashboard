@@ -1,0 +1,1192 @@
+[{
+    "applications": [
+        {
+          "Application": "Apigee API Platform",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "ASAP",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Red",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Red",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Automic",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "BRM",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Yellow",
+            "Pending RCA": "Green",
+            "Risks": "Yellow",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Yellow",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Yellow",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "DAS - Data Access Service",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "DAS - Fusion",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Yellow",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Yellow",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "DAS - Siebel",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Yellow",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Yellow",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Digital First - AEM ",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Digital First - CPQ",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Digital First - Velocity",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Digital First - VFE",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "eMagine",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Fusion Middleware(VF, SS2, MNP, FORT, FOAM)",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Genesys PureEngage Cloud",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Inteflow",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Yellow",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Yellow",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Inteflow (Decision Intellect)",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Integration Event Streaming platform",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Yellow",
+            "OS Patching": "Yellow",
+            "DB Patching": "Yellow"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "InterconnecT",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "IVR Application AWS API's",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "LSHS",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Managed Kafka",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Message Gateway (MNP)",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "MFT",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Red",
+            "OS Patching": "Red",
+            "DB Patching": "Red"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "MNP",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "MNP -DV",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "MRTM",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "My Account",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Red",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+        },
+          "Miscellaneous": {
+            "Development Road Plan": "Red",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "NBN / PIPE",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "OCSG - Retail (includes MNP Message Gateway)",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Green",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "OCSG - Wholesale",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Open API GW – 3 APIs [for RTC Phase 2]  ",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "OSM",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Red",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Red",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "PAS",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "PAS WS",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "PSM",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "SES Secure Entitlement Server",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Siebel",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Red"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "SIM swap application",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Tallyman",
+          "Systems": {
+          "Availability": "Green",
+          "Performance": "Green",
+          "Capacity": "Green",
+          "Redundancy": "Green"
+          },
+          "Operational": {
+          "P1/P2 Incidents": "Green",
+          "Pending RCA": "Green",
+          "Risks": "Green",
+          "Issues": "Green"
+          },
+          "Maintenance": {
+          "PKE": "Yellow",
+          "App Patching": "Green",
+          "OS Patching": "Green",
+          "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "TPP",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Red"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "Track & Trace",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "UIM",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "UiPath",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        },
+        {
+          "Application": "WPP",
+          "Systems": {
+            "Availability": "Green",
+            "Performance": "Green",
+            "Capacity": "Green",
+            "Redundancy": "Green"
+          },
+          "Operational": {
+            "P1/P2 Incidents": "Green",
+            "Pending RCA": "Green",
+            "Risks": "Green",
+            "Issues": "Green"
+          },
+          "Maintenance": {
+            "PKE": "Yellow",
+            "App Patching": "Green",
+            "OS Patching": "Green",
+            "DB Patching": "Green"
+          },
+          "Miscellaneous": {
+            "Development Road Plan": "Green",
+            "Health Checks": "Green",
+            "L2/L3 Support": "Green",
+            "EOL/EOS": "Green"
+          }
+        }
+      ]
+  }]
