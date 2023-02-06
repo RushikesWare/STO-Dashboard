@@ -55,7 +55,6 @@ h1 {
   margin: 0px 50px;
 }
 
-
 .availblityTable {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -78,19 +77,18 @@ th {
   width: auto;
   border: 1px solid #dddddd;
   border-radius: 5px;
-
 }
 a {
   text-decoration: none;
 }
 .availblityTable th {
-  background-color: rgba(58, 72, 230, 0.83);
+  background-color: #53006a;
   color: #fff;
   border-radius: 4px;
 }
 
 .availblityTable caption {
-  background-color: rgba(58, 72, 230, 0.83);
+  background-color: #53006a;
   color: #fff;
   font-weight: 600;
   font-size: larger;
@@ -99,7 +97,6 @@ a {
 
 .ragStatus span {
   margin: 0px 20px -40px -30px;
-
 }
 
 .yellow {
@@ -145,7 +142,7 @@ a {
   margin-top: -7%;
   padding-left: 40px;
   padding-right: 30px;
-  background-color: rgba(58, 72, 230, 0.83);
+  background-color: #53006a;
   color: #fff;
 }
 
@@ -174,8 +171,13 @@ a {
   height: 70vh;
 }
 
-.css-dip3t8, .css-11f023a {
-  background: linear-gradient(1000.35deg,#53006A 10.48%,#8E349D 80.46%) !important;
+.css-dip3t8,
+.css-11f023a {
+  background: linear-gradient(
+    1000.35deg,
+    #53006a 10.48%,
+    #8e349d 80.46%
+  ) !important;
 }
 
 .guidelineBtn {
@@ -191,9 +193,8 @@ a {
 }
 
 .sto-logo {
-  color: linear-gradient(330.35deg,#53006A 52.48%,#8E349D 81.46%) !important;
+  color: linear-gradient(330.35deg, #53006a 52.48%, #8e349d 81.46%) !important;
   font-size: 25px;
-  
 }
 .dashboard {
   padding: 10px;
@@ -201,10 +202,45 @@ a {
 
 .tpg-logo {
   width: 38%;
-    display: flex;
-    padding-top: 7px;
-
+  display: flex;
+  padding-top: 7px;
 }
 .css-hip9hq-MuiPaper-root-MuiAppBar-root {
- background: linear-gradient(1000.35deg,#53006A 10.48%,#8E349D 80.46%);
+  background: linear-gradient(1000.35deg, #53006a 10.48%, #8e349d 80.46%);
+}
+.css-z5rm24 {
+  background: linear-gradient(1000.35deg, #53006a 10.48%, #8e349d 80.46%);
+  color: #fff;
+}
+.css-z5rm24 a {
+  color: #fff;
+}
+
+.css-ra3y5v:hover {
+  background-color: #ebe3ed;
+}
+
+.css-z5rm24 a,
+span:hover {
+  color: #000;
+}
+
+.css-z5rm24 a {
+  color: #fff;
+}
+.css-z5rm24 a:hover {
+  color: #000;
+}
+
+.main-container button {
+  background-color: #eb008d;
+}
+.info {
+  position: relative;
+  bottom: -17px;
+  left: 88%;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  min-width: 0px !important;
+  padding: 0px !important;
 }

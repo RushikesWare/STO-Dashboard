@@ -1,17 +1,18 @@
-td {
+.snapshot-table td {
     padding: 5px;
     background: #FFFFFF;
     box-shadow: 0px 1px 2px rgb(0 0 0 / 40%);
     border-radius: 12px;
     height: 51px;
+    width: 20%;
 }
-tr  {
+.snapshot-table tr  {
     margin: 10px;
 }
-tr td:first-child {
+.snapshot-table tr td:first-child {
     width: 200px;
     border: none;
-    padding: 5px;
+    padding: 0;
     background: #FFFFFF;
     box-shadow: none;
     border-radius: none;
@@ -31,6 +32,7 @@ table {
     display: inline-block;
     vertical-align: bottom;
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .error {
@@ -47,4 +49,8 @@ table {
 .warning {
     background-color: yellow;
     border-color: yellow;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 16px !important;
 }

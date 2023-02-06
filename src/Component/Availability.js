@@ -7,11 +7,12 @@ function Availability() {
             
             {MockData && MockData.map(data => {
                 if (data.pageName === "Availability") {
+                    console.log(data.ragStatusColor);
                     return (
                         <div>
                             <BackNavigation></BackNavigation>
                             <h1 className='pageName'>{data.pageName}</h1>
-                            <div className='ragStatus'>{data.ragHeading} 30%
+                            <div className='ragStatus'>{data.ragHeading}
                                 <span className={data.ragStatusColor}> </span>
                             </div>
                             <table className='availblityTable' key={data.availabilityValues}>

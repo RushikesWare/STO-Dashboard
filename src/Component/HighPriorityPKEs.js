@@ -13,7 +13,6 @@ function HighPriorityPKEs() {
                             <h1 className='pageName'>{data.pageName}</h1>
                             <div className='ragStatus'>{data.ragHeading}
                                 <span className={data.ragStatusColor}></span>
-                                <b>30%</b>
                             </div>
                             <table className='availblityTable'>
                                 <tbody>
