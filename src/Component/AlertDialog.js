@@ -19,6 +19,7 @@ export default function AlertDialog(props) {
     Security: "ragSecurityData",
     Performance: "ragPerformanceData",
     Capacity: "ragCapacityData",
+    "P1/P2 Incidents": "ragP1P2IncidentsData"
 
   };
   const Item = styled(Paper)(({ theme }) => ({

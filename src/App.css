@@ -249,8 +249,8 @@ span:hover {
   margin-top: 5%;
 }
 .P2-RagTable{
-
-  /* width: 59%;
-  margin-left: 35%; */
-
+  width: 27%;
+  margin-top: 10%;
+  float: right;
+  position: relative;
 }

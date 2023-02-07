@@ -1,5 +1,4 @@
 import React from 'react'
-import MockData from '../json_server/MockData.json'
 import BackNavigation from './BackNavigation'
 import Button from '@mui/material/Button';
 import {

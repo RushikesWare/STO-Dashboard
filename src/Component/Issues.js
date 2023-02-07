@@ -67,7 +67,7 @@ function Issues() {
                                     </tbody>
                                 </table>
                             </div>
-                            <Button variant="contained" className='guidelineBtn' onClick={() => navigate("/Issues-Guideline")}>Issue Prioritisation Guideline</Button>
+                            <Button variant="contained" className='guidelineBtn' onClick={() => navigate("/home/Issues-Guideline")}>Issue Prioritisation Guideline</Button>
                         </div>
                     )
                 }

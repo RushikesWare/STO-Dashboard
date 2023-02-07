@@ -1,11 +1,11 @@
 import './App.css';
-import Layout from './Layout';
 import Snapshot from './snapshot';
 import React, { useState } from 'react'
 import Availability from './Component/Availability';
 import Performance from './Component/Performance';
 import Capacity from './Component/Capacity';
 import Security from './Component/Security';
+
 
 import {
   BrowserRouter as Router,
@@ -42,7 +42,6 @@ function App() {
   }
   return (
     <Router>
-      {/* <Layout changeBodyLeftMargin={changeBodyLeftMargin} /> */}
       <div style={{ marginLeft: changeLeftMargin ? '0px' : '170px' }} className='Body'>
       <Navbar/>
         {/* <Routes>

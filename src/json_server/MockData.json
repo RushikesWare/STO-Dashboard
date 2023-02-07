@@ -173,7 +173,7 @@
     },
     {
         "pageName": "Security",
-        "ragStatusColor": "yellow",
+        "ragStatusColor": "green",
         "securityHeading": "Security-related risk #",
         "migrationHeading": "Mitigated?",
         "descHeading": "Description",
@@ -219,7 +219,7 @@
     },
     {
         "pageName": "Risk Analysis",
-        "ragStatusColor": "red",
+        "ragStatusColor": "green",
         "ragHeading": "RAG",
         "defHeading": "Definition",
         "riskHeading": [
@@ -736,7 +736,7 @@
     },
     {
         "pageName": "Critical Priority Incidents (P1)",
-        "ragStatusColor": "red",
+        "ragStatusColor": "green",
         "ragHeading": "RAG",
         "defHeading": "Definition",
         "criticalPriorityP1Heading": [
@@ -802,7 +802,7 @@
     },
     {
         "pageName": "High-Priority Incidents (P2)",
-        "ragStatusColor": "red",
+        "ragStatusColor": "green",
         "ragHeading": "RAG",
         "defHeading": "Definition",
         "priorityP2Heading": [
@@ -817,34 +817,24 @@
         ],
         "priorityP2AnalysisData": [
             {
-                "incidentId": "RSK0000001xxxxx",
+                "incidentId": "INC000014329200",
                 "urgency": "High, Medium",
                 "impact": "High, Medium",
                 "priority": "P2",
-                "description": " ",
-                "date": " ",
-                "frequency": " ",
-                "duration": "  "
+                "description": "Unable to raise order via secondary connection on Siebel",
+                "date":"01/12/2022",
+                "frequency": "Under review",
+                "duration": "67 Mins"
             },
             {
-                "incidentId": "RSK0000002xxxxx",
+                "incidentId": "INC000014332340",
                 "urgency": "High, Medium",
                 "impact": "High, Medium",
                 "priority": "P2",
-                "description": " ",
-                "date": " ",
-                "frequency": " ",
-                "duration": "  "
-            },
-            {
-                "incidentId": "RSK0000003xxxxx",
-                "urgency": "High, Medium",
-                "impact": "High, Medium",
-                "priority": "P2",
-                "description": " ",
-                "date": " ",
-                "frequency": " ",
-                "duration": "  "
+                "description": "CRQ000000881742 SIEBEL PATCHSET UPGRADE from 19.12 to 22.07 - Siebel Service Outage",
+                "date": "4/12/2022 ",
+                "frequency": "Under review",
+                "duration": "83 mins"
             }
 
         ],

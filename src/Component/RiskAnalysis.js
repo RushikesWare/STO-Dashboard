@@ -73,7 +73,7 @@ function RiskAnalysis() {
                                     </tbody>
                                 </table>
                             </div>
-                            <Button variant="contained" className='guidelineBtn' onClick={() => navigate("/Risk-Guideline")}>Risk Prioritisation Guideline</Button>
+                            <Button variant="contained" className='guidelineBtn' onClick={() => navigate("/home/Risk-Guideline")}>Risk Prioritisation Guideline</Button>
 
                         </div>
                     )

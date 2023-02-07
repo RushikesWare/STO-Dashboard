@@ -43,8 +43,8 @@ function P2HighPriorityIncidents() {
 
                                 </tbody>
                             </table>
-                            <div className='defination'>
-                                <table className='availblityTable P2-RagTable'>
+                            <div className='defination  P2-RagTable'>
+                                <table className='availblityTable'>
                                     <tbody key={data.ragDefinition.Red.id}>
                                         <tr>
                                             <th>{data.ragHeading}</th>

@@ -12,11 +12,11 @@ import {
 } from "recharts";
 import { ContainerDiv } from "./Practice.styles";
 const data = [
-  { name: "01-Oct-2015", incidentCount: 3, incidentDuration: 500 },
-  { name: "01-Nov-2015", incidentCount: 3, incidentDuration: 1500 },
-  { name: "01-Dec-2015", incidentCount: 1, incidentDuration: 200 },
-  { name: "01-Dec-2015", incidentCount: 0, incidentDuration: 0 },
-  { name: "01-Jan-2015", incidentCount: 5, incidentDuration: 500 },
+  { name: "01-Dec", incidentCount: 2, incidentDuration: 67 },
+  { name: "04-Dec", incidentCount:3, incidentDuration: 83 },
+  { name: " ", incidentCount:0 , incidentDuration: 0 },
+  // { name: "01-Dec", incidentCount: 0, incidentDuration: 0 },
+  // { name: "01-Jan", incidentCount: 5, incidentDuration: 500 },
 ];
 console.log(data);
 const P2Chart = () => (
