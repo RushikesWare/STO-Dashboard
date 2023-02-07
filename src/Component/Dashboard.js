@@ -10,7 +10,8 @@ import SystemSecurityUpdateIcon from '@mui/icons-material/SystemSecurityUpdate';
 function Dashboard() {
   return (
     <div className="dashboard">
-      <Grid container spacing={3}  sx={{ textAlign:'center' }}>
+      <h1>STO Dashboard</h1>
+      {/* <Grid container spacing={3}  sx={{ textAlign:'center' }}>
         <Grid item xs={12} sm={6} md={3}>
           <Card sx={{ minWidth: 275,backgroundColor:'#D1E9FC', color:'#04297A' }}>
             <CardContent>
@@ -120,7 +121,7 @@ function Dashboard() {
             </CardActions>
           </Card>
         </Grid>
-      </Grid>
+      </Grid> */}
     </div>
   );
 }

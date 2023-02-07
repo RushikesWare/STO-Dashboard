@@ -1,10 +1,19 @@
 import React from 'react'
 import MockData from '../json_server/MockData.json'
 import BackNavigation from './BackNavigation'
+import Application from '../json_server/ApplicationsList.json';
+
+
 function Availability() {
+    
+
     return (
         <div className='main-container'>
-            
+           <div>
+           {Application && Application.map(data=>{
+            console.log(data.applicationName);
+           })}
+           </div>
             {MockData && MockData.map(data => {
                 if (data.pageName === "Availability") {
                     console.log(data.ragStatusColor);
@@ -13,7 +22,7 @@ function Availability() {
                             <BackNavigation></BackNavigation>
                             <h1 className='pageName'>{data.pageName}</h1>
                             <div className='ragStatus'>{data.ragHeading}
-                                <span className={data.ragStatusColor}> </span>
+                                <span className={'red'}> </span>
                             </div>
                             <table className='availblityTable' key={data.availabilityValues}>
                                 <tbody>

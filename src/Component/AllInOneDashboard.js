@@ -1,12 +1,10 @@
 import React from 'react';
-import BackNavigation from './BackNavigation'
 import AllInOneDashboardMock from '../json_server/AllInOneDashboardMock.json';
 import './AllInOneDashboard.css'
 
 function AllInOneDashboard() {
   return (
       <div className='main-container'>
-       <BackNavigation></BackNavigation>
        <h1 className='pageName'>All In One Dashboard</h1>
       {console.log(AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(data => data.Application))}
         <div className='dashboard-wrapper'>

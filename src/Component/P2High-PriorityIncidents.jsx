@@ -1,6 +1,7 @@
 import React from 'react'
 import MockData from '../json_server/MockData.json'
 import BackNavigation from './BackNavigation'
+import P2Chart from './P2Chart'
 
 function HighPriorityIncidentsP2() {
     return (
@@ -18,15 +19,15 @@ function HighPriorityIncidentsP2() {
                                 <tbody>
                                     <tr>
                                         {
-                                            data.priorityP2Heading.map(heading => {
-                                                return (<th>{heading}</th>)
+                                            data.priorityP2Heading.map((heading, index) => {
+                                                return (<th key={index}>{heading}</th>)
                                             })
                                         }
                                     </tr>
-                                    {data.priorityP2AnalysisData.map(mydata => {
+                                    {data.priorityP2AnalysisData.map((mydata, index) => {
                                         return (
                                             <>
-                                                <tr key={mydata.incidentId}>
+                                                <tr key={index}>
                                                     <td>{mydata.incidentId}</td>
                                                     <td >{mydata.urgency}</td>
                                                     <td >{mydata.impact}</td>
@@ -43,7 +44,7 @@ function HighPriorityIncidentsP2() {
                                 </tbody>
                             </table>
                             <div className='defination'>
-                                <table className='availblityTable'>
+                                <table className='availblityTable P2-RagTable'>
                                     <tbody key={data.ragDefinition.Red.id}>
                                         <tr>
                                             <th>{data.ragHeading}</th>
@@ -68,7 +69,9 @@ function HighPriorityIncidentsP2() {
                     )
                 }
             })}
-
+            <div className='chart'>
+                <P2Chart/>
+            </div>
         </div>
     )
 }

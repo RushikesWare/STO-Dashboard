@@ -18,7 +18,7 @@ import IssuesPrioGuidelines from './Component/IssuesPrioGuidelines';
 import RiskPrioGuidelines from './Component/RiskPrioGuideline';
 import RagDefinitions from './Component/RagDefinitions';
 import PriorityIncidents from './Component/PriorityIncidents';
-import HighPriorityIncidentsP2 from './Component/High-PriorityIncidentsP2';
+import HighPriorityIncidentsP2 from './Component/P2High-PriorityIncidents';
 import IncidentGuideline from './Component/IncidentGuideline';
 import HighPriorityPKEs from './Component/HighPriorityPKEs';
 import RCAs from './Component/RCAs';
@@ -28,6 +28,7 @@ import NoPageFound from './Component/NoPageFound';
 import AllInOneDashboard from './Component/AllInOneDashboard';
 import Settings from './Component/Settings';
 import Signout from './Component/Signout';
+import P1CriticalPriorityIncidents from './Component/P1CriticalPriorityIncidents';
 
 function App() {
   let [changeLeftMargin, setchangeLeftMargin] = useState('0px')
@@ -45,7 +46,7 @@ function App() {
           <Route exact path='/allInOneDashboard' element={< AllInOneDashboard />}></Route>
           <Route exact path='/settings' element={< Settings />}></Route>
           <Route exact path='/signout' element={< Signout />}></Route>
-          <Route exact path='/Dashboard' element={<Dashboard/>}></Route>
+          <Route exact path='/' element={<Dashboard/>}></Route>
           <Route exact path='/snapshot/availability' element={< Availability />}></Route>
           <Route exact path='/snapshot/performance' element={< Performance />}></Route>
           <Route exact path='/snapshot/capacity' element={< Capacity />}></Route>
@@ -56,7 +57,8 @@ function App() {
           <Route exact path='/Risk-Guideline' element={< RiskPrioGuidelines />}></Route>
           <Route exact path='/RAG-Definitions' element={< RagDefinitions />}></Route>
           <Route exact path='/snapshot/P1/P2 Incidents' element={< PriorityIncidents />}></Route>
-          <Route exact path='/snapshot/High-Priority Incidents' element={< HighPriorityIncidentsP2 />}></Route>
+          <Route exact path='/snapshot/High-PriorityP2' element={< HighPriorityIncidentsP2 />}></Route>
+          <Route exact path='/snapshot/Critical-PriorityP1' element={< P1CriticalPriorityIncidents />}></Route>
           <Route exact path='/snapshot/IncidentGuideline' element={< IncidentGuideline />}></Route>
           <Route exact path='/snapshot/PKEs' element={< HighPriorityPKEs />}></Route>
           <Route exact path='/snapshot/RCAs' element={< RCAs />}></Route>      
