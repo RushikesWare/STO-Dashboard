@@ -12,9 +12,9 @@ function PriorityIncidents() {
                             <BackNavigation></BackNavigation>
 
             <h1 style={{textAlign:'center'}}> Priority Incidents </h1>
-            <Button variant="contained" className='guidelineBtn' onClick={() => navigate("/snapshot/Critical-PriorityP1")}>Critical Priority Incidents P1</Button>
-            <Button variant="contained" className='guidelineBtn' style={{marginLeft:'2%'}} onClick={() => navigate("/snapshot/High-PriorityP2")}>High-Priority Incidents P2</Button>
-            <Button variant="contained" className='guidelineBtn' style={{marginLeft:'2%'}} onClick={() => navigate("/snapshot/IncidentGuideline")}>Incident Guideline</Button>
+            <Button variant="contained" className='guidelineBtn' onClick={() => navigate("/home/snapshot/Critical-PriorityP1")}>Critical Priority Incidents P1</Button>
+            <Button variant="contained" className='guidelineBtn' style={{marginLeft:'2%'}} onClick={() => navigate("/home/snapshot/High-PriorityP2")}>High-Priority Incidents P2</Button>
+            <Button variant="contained" className='guidelineBtn' style={{marginLeft:'2%'}} onClick={() => navigate("/home/snapshot/IncidentGuideline")}>Incident Guideline</Button>
 
         </div>
     )

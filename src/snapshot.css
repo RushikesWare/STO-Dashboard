@@ -50,6 +50,7 @@ table {
   background-color: yellow;
   border-color: yellow;
 }
+.grey {  background-color: grey;  border-color: grey;}
 
 .warning {
   background-color: yellow;

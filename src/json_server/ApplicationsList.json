@@ -4,7 +4,7 @@
     "applicationName": "Apigee API Platform",
     "applicationInfo": " ",
     "icon": "ScreenshotMonitorIcon",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Apigee API Platform"
     }
@@ -14,7 +14,7 @@
     "applicationName": "ASAP",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "ASAP"
     }
@@ -24,7 +24,7 @@
     "applicationName": "Automic",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Automic"
     }
@@ -34,7 +34,7 @@
     "applicationName": "BRM",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "BRM"
     }
@@ -44,7 +44,7 @@
     "applicationName": "DAS - Data Access Service",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "DAS - Data Access Service"
     }
@@ -54,7 +54,7 @@
     "applicationName": "DAS - Fusion",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "DAS - Fusion"
     }
@@ -64,7 +64,7 @@
     "applicationName": "DAS - Sibel",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "DAS - Sibel"
     }
@@ -74,7 +74,7 @@
     "applicationName": "Digital First - AEM",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Digital First - AEM"
     }
@@ -84,7 +84,7 @@
     "applicationName": "Digital First - CPQ",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Digital First - CPQ"
     }
@@ -94,7 +94,7 @@
     "applicationName": "Digital First - Velocity",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Digital First - Velocity"
     }
@@ -104,7 +104,7 @@
     "applicationName": "Digital First - VFE",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Digital First - VFE"
     }
@@ -114,7 +114,7 @@
     "applicationName": "eMagine",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "eMagine"
     }
@@ -124,7 +124,7 @@
     "applicationName": "Fusion MiddleWare",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Fusion MiddleWare"
     }
@@ -134,7 +134,7 @@
     "applicationName": "Genesys PureEngage Cloud",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Genesys PureEngage Cloud"
     }
@@ -144,7 +144,7 @@
     "applicationName": "Inteflow",
     "applicationInfo": " ",
     "icon": "test",
-    "to": "/snapshot",
+    "to": "/home/snapshot",
     "state": {
       "headerName": "Inteflow"
     }

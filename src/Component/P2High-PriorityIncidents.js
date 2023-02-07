@@ -3,7 +3,7 @@ import MockData from '../json_server/MockData.json'
 import BackNavigation from './BackNavigation'
 import P2Chart from './P2Chart'
 
-function HighPriorityIncidentsP2() {
+function P2HighPriorityIncidents() {
     return (
         <div className='main-container'>
             {MockData && MockData.map(data => {
@@ -76,4 +76,4 @@ function HighPriorityIncidentsP2() {
     )
 }
 
-export default HighPriorityIncidentsP2
+export default P2HighPriorityIncidents

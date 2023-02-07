@@ -1,11 +1,12 @@
 import React from 'react';
+import BackNavigation from './BackNavigation'
 import AllInOneDashboardMock from '../json_server/AllInOneDashboardMock.json';
 import './AllInOneDashboard.css'
 
 function AllInOneDashboard() {
   return (
       <div className='main-container'>
-       <h1 className='pageName'>All In One Dashboard</h1>
+       <h1 className='pageName allinonetitle'>All In One Dashboard</h1>
       {console.log(AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(data => data.Application))}
         <div className='dashboard-wrapper'>
             <span className='column-width'>
@@ -69,31 +70,31 @@ function AllInOneDashboard() {
                        </span>
                       <span className='column-separator'></span>
                       <span className='column-width'>
-                            <span className={"healthcheck "+ data['Systems']['Availability'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Systems']['Performance'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Systems']['Capacity'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Systems']['Redundancy'].toLowerCase()}> </span>
+                            <span className={"healthcheck "+ (!!data['Systems']['Availability'].toLowerCase() ? data['Systems']['Availability'].toLowerCase() : 'grey') }> </span>
+                            <span className={"healthcheck "+ (!!data['Systems']['Performance'].toLowerCase() ? data['Systems']['Performance'].toLowerCase() : 'grey') }> </span>
+                            <span className={"healthcheck "+ (!!data['Systems']['Capacity'].toLowerCase() ? data['Systems']['Capacity'].toLowerCase() : 'grey')}> </span>
+                            <span className={"healthcheck "+ (!!data['Systems']['Redundancy'].toLowerCase() ? data['Systems']['Redundancy'].toLowerCase() : 'grey')}> </span>
                       </span>
                        <span className='column-separator'></span>
                        <span className='column-width'>
-                            <span className={"healthcheck "+ data['Operational']['P1/P2 Incidents'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Operational']['Pending RCA'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Operational']['Risks'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Operational']['Issues'].toLowerCase()}> </span>
+                            <span className={"healthcheck "+ (!!data['Operational']['P1/P2 Incidents'].toLowerCase() ? data['Operational']['P1/P2 Incidents'].toLowerCase() : 'grey') }> </span>
+                            <span className={"healthcheck "+ (!!data['Operational']['Pending RCA'].toLowerCase() ? data['Operational']['Pending RCA'].toLowerCase() : 'grey') }> </span>
+                            <span className={"healthcheck "+ (!!data['Operational']['Risks'].toLowerCase() ? data['Operational']['Risks'].toLowerCase() : 'grey')}> </span>
+                            <span className={"healthcheck "+ (!!data['Operational']['Issues'].toLowerCase() ? data['Operational']['Issues'].toLowerCase() : 'grey')}> </span>
                        </span>
                        <span className='column-separator'></span>
                        <span className='column-width'>
-                            <span className={"healthcheck "+ data['Maintenance']['PKE'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Maintenance']['App Patching'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Maintenance']['OS Patching'].toLowerCase()}> </span>
-                            <span className={"healthcheck "+ data['Maintenance']['DB Patching'].toLowerCase()}> </span>
+                          <span className={"healthcheck "+ (!!data['Maintenance']['PKE'].toLowerCase() ? data['Maintenance']['PKE'].toLowerCase() : 'grey') }> </span>
+                          <span className={"healthcheck "+ (!!data['Maintenance']['App Patching'].toLowerCase() ? data['Maintenance']['App Patching'].toLowerCase() : 'grey') }> </span>
+                          <span className={"healthcheck "+ (!!data['Maintenance']['OS Patching'].toLowerCase() ? data['Maintenance']['OS Patching'].toLowerCase() : 'grey')}> </span>
+                          <span className={"healthcheck "+ (!!data['Maintenance']['DB Patching'].toLowerCase() ? data['Maintenance']['DB Patching'].toLowerCase() : 'grey')}> </span>
                        </span>
                         <span className='column-separator'></span>
                         <span className='column-width'>
-                             <span className={"healthcheck "+ data['Miscellaneous']['Development Road Plan'].toLowerCase()}> </span>
-                             <span className={"healthcheck "+ data['Miscellaneous']['Health Checks'].toLowerCase()}> </span>
-                             <span className={"healthcheck "+ data['Miscellaneous']['L2/L3 Support'].toLowerCase()}> </span>
-                             <span className={"healthcheck "+ data['Miscellaneous']['EOL/EOS'].toLowerCase()}> </span>
+                            <span className={"healthcheck "+ (!!data['Miscellaneous']['Development Road Plan'].toLowerCase() ? data['Miscellaneous']['Development Road Plan'].toLowerCase() : 'grey') }> </span>
+                            <span className={"healthcheck "+ (!!data['Miscellaneous']['Health Checks'].toLowerCase() ? data['Miscellaneous']['Health Checks'].toLowerCase() : 'grey') }> </span>
+                            <span className={"healthcheck "+ (!!data['Miscellaneous']['L2/L3 Support'].toLowerCase() ? data['Miscellaneous']['L2/L3 Support'].toLowerCase() : 'grey')}> </span>
+                            <span className={"healthcheck "+ (!!data['Miscellaneous']['EOL/EOS'].toLowerCase() ? data['Miscellaneous']['EOL/EOS'].toLowerCase() : 'grey')}> </span>
                         </span>
                 </div>
             </div>
