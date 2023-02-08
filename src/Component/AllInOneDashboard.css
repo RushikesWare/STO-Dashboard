@@ -13,6 +13,9 @@
   width: 20%;
   display: inline-flex;
   position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 .column-separator {
   /* width: 6%; */
@@ -38,8 +41,8 @@
 }
 .kpi {
   font-size: 8px;
-  margin-left: 5px;
   white-space: normal;
+  flex-basis: min-content;
 }
 
 .healthcheck {
@@ -61,6 +64,16 @@
 .adjustmargin-maintenance {
   margin-left: 25px;
 }
-.columnHeaderMargin{
+.columnHeaderMargin {
   margin-left: 10px;
+}
+.applicationName{
+  text-align: left;
+}
+.column-width-applicationname {    width: 20%;   display: inline-flex;}
+.columnapplicationname{
+  display: inline-flex;
+  
+  margin-left: -95px;
+
 }

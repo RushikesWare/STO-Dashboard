@@ -10,7 +10,7 @@ function AllInOneDashboard() {
       {console.log(AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(data => data.Application))}
         <div className='dashboard-wrapper'>
             <span className='column-width'>
-                 <span className="columnHeader"> Applications </span>
+                 <span className="columnHeader columnapplicationname"> Applications </span>
             </span>
             <span className='column-separator'></span>
             <span className='column-width'>
@@ -33,7 +33,7 @@ function AllInOneDashboard() {
         <div className="row-separator"></div>
             <span className='column-width'></span>
             <span className='column-separator'></span>
-            <span className='column-width adjustmargin'>
+            <span className='column-width'>
                 <span className="kpi">Availability</span>
                 <span className="kpi">Performance</span>
                 <span className="kpi">Capacity</span>
@@ -47,7 +47,7 @@ function AllInOneDashboard() {
                     <span className="kpi">Issues</span>
                 </span>
             <span className='column-separator'></span>
-                <span className='column-width adjustmargin-maintenance'>
+                <span className='column-width'>
                     <span className="kpi">PKE</span>
                     <span className="kpi">App Patching</span>
                     <span className="kpi">OS Patching</span>
@@ -65,8 +65,8 @@ function AllInOneDashboard() {
          return (
             <div >
                 <div className="applicationRow">
-                      <span className='column-width'>
-                            <span> {data['Application']}</span>
+                      <span className='column-width-applicationname'>
+                            <span className='applicationName'> {data['Application']}</span>
                        </span>
                       <span className='column-separator'></span>
                       <span className='column-width'>

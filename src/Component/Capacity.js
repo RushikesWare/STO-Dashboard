@@ -1,9 +1,16 @@
 import React from 'react'
 import MockData from '../json_server/MockData.json'
 import BackNavigation from './BackNavigation'
-
+import AllInOneDashboardMock from '../json_server/AllInOneDashboardMock.json'
+import {
+  BrowserRouter as Router,
+  useLocation,
+} from "react-router-dom";
 
 function Capacity() {
+  const location = useLocation();
+  const applicationName= location.state?.headerName;
+  console.log(applicationName);
   return (
     <div className='main-container'>
       {MockData && MockData.map(data => {
@@ -13,7 +20,11 @@ function Capacity() {
               <BackNavigation></BackNavigation>
               <h1 className='pageName'>{data.pageName}</h1>
               <div className='ragStatus'>{data.ragHeading}
-                <span className={data.ragStatusColor}></span>
+                {/* <span className={data.ragStatusColor}></span> */}
+                {AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(allinonedata => {   
+                       if(allinonedata['Application'] === applicationName) {        
+                        return(<span className={!!allinonedata['Systems']['Capacity'] ? allinonedata['Systems']['Capacity'].toLowerCase() : 'greyEmtyStatus'}> </span>) 
+                            }   } )}
               </div>
               <table className='availblityTable'>
                 <tbody>

@@ -1,8 +1,16 @@
 import React from 'react'
 import MockData from '../json_server/EosEolData.json'
 import BackNavigation from './BackNavigation'
+import AllInOneDashboardMock from '../json_server/AllInOneDashboardMock.json'
+import {
+  BrowserRouter as Router,
+  useLocation,
+} from "react-router-dom";
 
 function EolEos() {
+    const location = useLocation();
+    const applicationName= location.state?.headerName;
+    console.log(applicationName);
     return (
         <div className='main-container'>
             {MockData && MockData.map(data => {
@@ -12,7 +20,11 @@ function EolEos() {
                             <BackNavigation></BackNavigation>
                             <h1 className='pageName'>{data.pageName}</h1>
                             <div className='ragStatus'>{data.ragHeading}
-                                <span className={data.ragStatusColor}></span>
+                                {/* <span className={data.ragStatusColor}></span> */}
+                                {AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(allinonedata => {   
+                       if(allinonedata['Application'] === applicationName) {        
+                        return(<span className={!!allinonedata['Miscellaneous']['EOL/EOS'] ? allinonedata['Miscellaneous']['EOL/EOS'].toLowerCase() : 'greyEmtyStatus'}> </span>) 
+                            }   } )}
                             </div>
                             <table className='availblityTable'>
                                 <tbody>

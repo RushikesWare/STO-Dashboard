@@ -5,16 +5,10 @@ import Application from "../json_server/ApplicationsList.json";
 import AllInOneDashboardMock from '../json_server/AllInOneDashboardMock.json'
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
   useLocation,
-  Link,
-  useNavigate,
-  useParams,
 } from "react-router-dom";
 
 function Availability() {
-  // const ragStatus;
   const location = useLocation();
   const applicationName= location.state?.headerName;
   console.log(applicationName);
