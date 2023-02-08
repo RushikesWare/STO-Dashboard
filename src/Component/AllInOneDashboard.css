@@ -73,7 +73,7 @@
 .column-width-applicationname {    width: 20%;   display: inline-flex;}
 .columnapplicationname{
   display: inline-flex;
-  
+  justify-content: center;
   margin-left: -95px;
 
 }

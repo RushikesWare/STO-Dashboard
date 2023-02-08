@@ -100,7 +100,7 @@ a {
   margin: 0px 20px -40px -30px;
 }
 .yellow, .green, .red, .warning{ 
-  padding: 7px;
+  padding: 5px;
   border-radius: 50%;
   border: 1px solid black;
   height: 10px;
