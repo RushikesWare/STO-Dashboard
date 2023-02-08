@@ -31,7 +31,7 @@ function Snapshot(props) {
       },
       {
         name: "Performance",
-        status: "success",
+        status: "grey",
         isLink: true,
         icon: "InfoIcon",
         isLink: true,
@@ -69,7 +69,7 @@ function Snapshot(props) {
       },
       {
         name: "DB patching",
-        status: "warning",
+        status: "success",
         isLink: true,
         icon: "InfoIcon",
       },
@@ -94,7 +94,7 @@ function Snapshot(props) {
         isLink: true,
         icon: "InfoIcon",
       },
-      { name: "EOL/EOS", status: "warning", isLink: true, icon: "InfoIcon" },
+      { name: "EOL/EOS", status: "success", isLink: true, icon: "InfoIcon" },
     ],
   ];
   let trList = [];

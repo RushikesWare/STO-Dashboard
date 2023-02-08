@@ -14,7 +14,8 @@ function BackNavigation() {
             <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop:'20px' }}>
              
                 <Button variant="contained" onClick={() => navigate(-1)}>Back</Button>
-                <img style={{width: '20px'}} src = {svg} alt="My Happy SVG"/>
+                {/* <img style={{width: '20px'}} src = {svg} alt="My Happy SVG"/> */}
+                <input type="date" style={{width: '20px'}} src = {svg} alt="My Happy SVG"/>
             </div>
             <hr></hr>
         </div>

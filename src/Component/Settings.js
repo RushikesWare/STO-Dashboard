@@ -12,7 +12,7 @@ function Settings() {
    const inputHandler = (e) => {
     if(!!e.target.value.toLowerCase()) {
         setFilteredData(mockData.filter((el) => {
-             if(el['Application'].includes(e.target.value)) {
+          if((el['Application'].toLowerCase()).includes(e.target.value.toLowerCase())) {
                 return el;
              }
         }));

@@ -14,19 +14,19 @@ function AllInOneDashboard() {
             </span>
             <span className='column-separator'></span>
             <span className='column-width'>
-                 <span className="columnHeader">Systems </span>
+                 <span className="columnHeader columnHeaderMargin">Systems </span>
             </span>
             <span className='column-separator'></span>
             <span className='column-width'>
-                 <span className="columnHeader"> Operational </span>
+                 <span className="columnHeader columnHeaderMargin"> Operational </span>
             </span>
             <span className='column-separator'></span>
             <span  className='column-width'>
-                 <span className="columnHeader"> Maintenance </span>
+                 <span className="columnHeader columnHeaderMargin"> Maintenance </span>
             </span>
             <span className='column-separator'></span>
             <span  className='column-width'>
-                 <span className="columnHeader"> Miscellaneous </span>
+                 <span className="columnHeader columnHeaderMargin"> Miscellaneous </span>
             </span>
             <span className='column-separator'></span>
         </div>
