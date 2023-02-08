@@ -1,0 +1,62 @@
+[
+    {
+        "pageName": "EOS or EOL",
+        "ragStatusColor": "green",
+        "ragHeading": "RAG",
+        "defHeading": "Definition",
+        "eolEosHeading": [
+            "Application Name",
+            "Current App Version in production?",
+            "Is current app version EOS or EOL?",
+            "Latest Available APP Version?",
+            "PKE No",
+            "PKE Submit Date",
+            "PKE Status ",
+            "PKE Assigned Group",
+            "Remarks / Update"
+        ],
+        "eolEosData": [
+                
+            {
+                "applicationName": "ASAP",
+                "appVersionInProd": "JDK8 - 1.8.0.162",
+                "currentAppVersion": "12/30",
+                "availableAppVersion": "JDK17",
+                "pkeNumber": "PKE000000103330",
+                "submitDate":"06/07/2022",
+                "pkeStatus":"Assigned",
+                "assignGroup": "TCS ASAP L3",
+                "remark": "Facing issues with patch deployment in PPD servers, raised SR for resolution."
+            },
+            {
+                "applicationName": "ASAP",
+                "appVersionInProd": "12.2.0.1.0",
+                "currentAppVersion": "EOS",
+                "availableAppVersion": "19C",
+                "pkeNumber": "PKE000000102971",
+                "submitDate":"16/06/2022",
+                "pkeStatus":"Assigned",
+                "assignGroup": "VHA-Billing Charging & Revenue",
+                "remark": "No updates"
+            }
+
+        ],
+        "ragDefinition": {
+            "Red": {
+                "id": 1,
+                "color": "red",
+                "definition": "Application is ‘Active’, and One or more elements (Database, Infrastructure, OS, Application) are either ‘EOS’ or ‘EOL’, and Risk raised = ‘No’"
+            },
+            "Yellow": {
+                "id": 2,
+                "color": "warning",
+                "definition": "Application is ‘Active’, and One or more elements (Database, Infrastructure, OS, Application) are either ‘EOS’ or ‘EOL’, and Risk raised = ‘Yes’"
+            },
+            "Green": {
+                "id": 3,
+                "color": "green",
+                "definition": "Application is ‘Decommissioned’, or All elements are neither EOL nor EOS"
+            }
+        }
+    }
+]

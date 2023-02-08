@@ -1,0 +1,11 @@
+{
+    "applicationName": "Siebel",
+    "appVersionInProd": "12.2.0.1.0",
+    "currentAppVersion": "EOS",
+    "availableAppVersion": "19C",
+    "pkeNumber": "PKE000000102979",
+    "submitDate":"20/06/2022",
+    "pkeStatus":"Assigned",
+    "assignGroup": "TCS-BSS-L3-Support",
+    "remark": "19c SOE is approved and it planning in Progress"
+}

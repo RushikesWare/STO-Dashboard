@@ -14,6 +14,8 @@ import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import Application from '../src/json_server/ApplicationsList.json';
 import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
+import AllInOneDashboardMock from './json_server/AllInOneDashboardMock.json'
+
 function Layout(props) {
     const navigate= useNavigate();
     const { collapseSidebar } = useProSidebar();
@@ -41,7 +43,7 @@ function Layout(props) {
                             Application && Application.map((data, index) => {
                                 return (
                                     <MenuItem  key={index} icon={<ScreenshotMonitorIcon />}>
-                                        <Link to={data.to} state={data.state}>{data.applicationName}</Link>
+                                        <Link to={data.to} state={data.state} >{data.applicationName}</Link>
                                     </MenuItem>
                                 )
                             })

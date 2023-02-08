@@ -2,6 +2,7 @@ import React from "react";
 import "./snapshot.css";
 import MockData from "../src/json_server/MockData.json";
 import Button from "@mui/material/Button";
+import AllInOneDashboardMock from './json_server/AllInOneDashboardMock.json'
 
 
 import {
@@ -31,7 +32,7 @@ function Snapshot(props) {
       },
       {
         name: "Performance",
-        status: "grey",
+        status: "success",
         isLink: true,
         icon: "InfoIcon",
         isLink: true,
@@ -110,17 +111,21 @@ function Snapshot(props) {
         );
       }
       if (col.status) {
-        td.push(<span className={"StatusIcon " + col.status}></span>);
+        {AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(allinonedata => {   
+          if(allinonedata['Application'] === headerName) {        
+            td.push(<span class="StatusIcon" className={"StatusIcon" + !!allinonedata['Systems']['Availability'] ? allinonedata['Systems']['Availability'].toLowerCase() : 'greyEmtyStatus'}></span>);
+               }   } )}
+        // td.push(<span className={"StatusIcon " + col.status}></span>);
       }
 
       if (col.isLink) {
         td.push(
           <label>
-            <Link to={col.name}>{col.name}</Link>
+            <Link to={col.name} state= {{ headerName: headerName }}>{col.name}</Link>
           </label>
         );
       } else {
-        td.push(<label>{col.name}</label>);
+        td.push(<label >{col.name}</label>);
       }
 
       tdList.push(<td>{td}</td>);

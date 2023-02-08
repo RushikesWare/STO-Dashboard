@@ -2,6 +2,7 @@ import React from "react";
 import MockData from "../json_server/MockData.json";
 import BackNavigation from "./BackNavigation";
 import Application from "../json_server/ApplicationsList.json";
+import AllInOneDashboardMock from '../json_server/AllInOneDashboardMock.json'
 import {
   BrowserRouter as Router,
   Routes,
@@ -9,12 +10,14 @@ import {
   useLocation,
   Link,
   useNavigate,
+  useParams,
 } from "react-router-dom";
 
 function Availability() {
   // const ragStatus;
   const location = useLocation();
-  console.log(location.state);
+  const applicationName= location.state?.headerName;
+  console.log(applicationName);
 
   return (
     <div className="main-container">
@@ -30,12 +33,16 @@ function Availability() {
                 <div className="ragStatus">
                   {data.ragHeading}
 
-                  {Application &&
+                  {/* {Application &&
                     Application.map((applicationData) => {
                       if (applicationData.applicationName === "ASAP") {
                        return(<span className={applicationData.ragStatus}> </span>) 
                       }
-                    })}
+                    })} */}
+                    {AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(allinonedata => {   
+                       if(allinonedata['Application'] === applicationName) {        
+                        return(<span className={!!allinonedata['Systems']['Availability'] ? allinonedata['Systems']['Availability'].toLowerCase() : 'greyEmtyStatus'}> </span>) 
+                            }   } )}
                 </div>
                 <table
                   className="availblityTable"

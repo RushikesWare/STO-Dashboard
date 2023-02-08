@@ -12,13 +12,13 @@
   },
   {
     "id": 7,
-    "applicationName": "DAS - Sibel",
+    "applicationName": "Sibel",
     "applicationInfo": " ",
     "icon": "test",
     "ragStatus":"green",
     "to": "/home/snapshot",
     "state": {
-      "headerName": "DAS - Sibel"
+      "headerName": "Sibel"
     }
   },
   {

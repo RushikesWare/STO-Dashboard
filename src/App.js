@@ -31,6 +31,8 @@ import P1CriticalPriorityIncidents from './Component/P1CriticalPriorityIncidents
 import Login from './Login';
 import Home from './Home';
 import P2HighPriorityIncidents from './Component/P2High-PriorityIncidents';
+import DbPatching from './Component/DbPatching';
+import EolEos from './Component/EolEos';
 
 
 
@@ -91,6 +93,8 @@ function App() {
               <Route exact path='/home/snapshot/IncidentGuideline' element={< IncidentGuideline />}></Route>
               <Route exact path='/home/snapshot/PKEs' element={< HighPriorityPKEs />}></Route>
               <Route exact path='/home/snapshot/RCAs' element={< RCAs />}></Route>
+              <Route exact path='/home/snapshot/DB Patching' element={< DbPatching />}></Route>
+              <Route exact path='/home/snapshot/EOL/EOS' element={< EolEos />}></Route>
               <Route exact path='*' element={<NoPageFound/>}></Route>
            </Route>
            <Route exact path='/signout' element={< Signout />}></Route>

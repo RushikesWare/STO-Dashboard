@@ -163,9 +163,9 @@
         }
       },
       {
-        "Application": "DAS - Siebel",
+        "Application": "Siebel",
         "Systems": {
-          "Availability": "",
+          "Availability": "Green",
           "Performance": "",
           "Capacity": "",
           "Redundancy": ""
