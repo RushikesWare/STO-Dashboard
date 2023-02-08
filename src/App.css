@@ -283,3 +283,8 @@ span:hover {
     margin-right: 10px;
     margin-bottom: 5px;
 }
+.dbPatching-table {
+  height: 500px;
+  overflow: auto;
+  display: block;
+}

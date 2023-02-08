@@ -26,7 +26,7 @@ function DbPatching() {
                         return(<span className={!!allinonedata['Maintenance']['DB Patching'] ? allinonedata['Maintenance']['DB Patching'].toLowerCase() : 'greyEmtyStatus'}> </span>) 
                             }   } )}
                             </div>
-                            <table className='availblityTable'>
+                            <table className='availblityTable dbPatching-table'>
                                 <tbody>
                                     <tr>
                                         {
@@ -36,6 +36,7 @@ function DbPatching() {
                                         }
                                     </tr>
                                     {data.dbPatchingData.map((mydata, index) => {
+                                        if(mydata.Applications===applicationName)
                                         return (
                                             <>
                                                 <tr key={index}>

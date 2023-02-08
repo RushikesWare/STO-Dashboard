@@ -36,6 +36,7 @@ function EolEos() {
                                         }
                                     </tr>
                                     {data.eolEosData.map((mydata, index) => {
+                                        if(mydata.applicationName===applicationName)
                                         return (
                                             <>
                                                 <tr key={index}>

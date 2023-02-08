@@ -87,7 +87,7 @@ function App() {
               <Route exact path='/home/RAG-Definitions' element={< RagDefinitions />}></Route>
              
               <Route exact path='/home/snapshot/P1/P2 Incidents' element={< PriorityIncidents />}></Route>
-              <Route exact path='/home/snapshot/High-PriorityP2' element={< P2HighPriorityIncidents />}></Route>
+              {/* <Route exact path='/home/snapshot/High-PriorityP2' element={< P2HighPriorityIncidents />}></Route> */}
               <Route exact path='/home/snapshot/Critical-PriorityP1' element={< P1CriticalPriorityIncidents />}></Route>
             
               <Route exact path='/home/snapshot/IncidentGuideline' element={< IncidentGuideline />}></Route>
