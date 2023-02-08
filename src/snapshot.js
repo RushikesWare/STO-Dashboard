@@ -57,19 +57,19 @@ function Snapshot(props) {
       { name: "Maintenance" },
       { name: "PKEs", status: "success", isLink: true, icon: "InfoIcon" },
       {
-        name: "App patching",
+        name: "App Patching",
         status: "success",
         isLink: true,
         icon: "InfoIcon",
       },
       {
-        name: "OS patching",
+        name: "OS Patching",
         status: "success",
         isLink: true,
         icon: "InfoIcon",
       },
       {
-        name: "DB patching",
+        name: "DB Patching",
         status: "success",
         isLink: true,
         icon: "InfoIcon",
