@@ -138,12 +138,12 @@ function Snapshot(props) {
       </table>
       <div>
         {MockData &&
-          MockData.map((data) => {
+          MockData.map((data, index) => {
             if (data.pageName === "Snapshot") {
               return (
                 <div className="defination">
                   <table className="availblityTable">
-                    <tbody key={data.ragDefinition.Red.id}>
+                    <tbody>
                       <tr>
                         <td>
                           <span className={data.ragDefinition.Red.color}></span>
@@ -172,8 +172,8 @@ function Snapshot(props) {
                   </table>
                   <Button
                     variant="contained"
-                    className="guidelineBtn"
-                    onClick={() => navigate("/RAG-Definitions")}
+                    className="guidelineBtn Rag-def-button"
+                    onClick={() => navigate("/home/RAG-Definitions")}
                   >
                     RAG Definitions
                   </Button>

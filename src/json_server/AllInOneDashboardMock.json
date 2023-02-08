@@ -30,7 +30,7 @@
       {
         "Application": "ASAP",
         "Systems": {
-          "Availability": "",
+          "Availability": "Green",
           "Performance": "",
           "Capacity": "",
           "Redundancy": "Green"
@@ -975,7 +975,7 @@
       {
         "Application": "Siebel",
         "Systems": {
-          "Availability": "",
+          "Availability": "Green",
           "Performance": "",
           "Capacity": "",
           "Redundancy": "Green"

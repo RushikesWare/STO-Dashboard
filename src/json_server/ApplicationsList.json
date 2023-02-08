@@ -1,16 +1,5 @@
 [
   {
-    "id": 1,
-    "applicationName": "Apigee API Platform",
-    "applicationInfo": " ",
-    "icon": "ScreenshotMonitorIcon",
-    "to": "/home/snapshot",
-    "ragStatus":"yellow",
-    "state": {
-      "headerName": "Apigee API Platform"
-    }
-  },
-  {
     "id": 2,
     "applicationName": "ASAP",
     "applicationInfo": " ",
@@ -21,6 +10,29 @@
       "headerName": "ASAP"
     }
   },
+  {
+    "id": 7,
+    "applicationName": "DAS - Sibel",
+    "applicationInfo": " ",
+    "icon": "test",
+    "ragStatus":"green",
+    "to": "/home/snapshot",
+    "state": {
+      "headerName": "DAS - Sibel"
+    }
+  },
+  {
+    "id": 1,
+    "applicationName": "Apigee API Platform",
+    "applicationInfo": " ",
+    "icon": "ScreenshotMonitorIcon",
+    "to": "/home/snapshot",
+    "ragStatus":"yellow",
+    "state": {
+      "headerName": "Apigee API Platform"
+    }
+  },
+  
   {
     "id": 3,
     "applicationName": "Automic",
@@ -65,17 +77,7 @@
       "headerName": "DAS - Fusion"
     }
   },
-  {
-    "id": 7,
-    "applicationName": "DAS - Sibel",
-    "applicationInfo": " ",
-    "icon": "test",
-    "ragStatus":"green",
-    "to": "/home/snapshot",
-    "state": {
-      "headerName": "DAS - Sibel"
-    }
-  },
+  
   {
     "id": 8,
     "applicationName": "Digital First - AEM",

@@ -91,9 +91,9 @@ function App() {
               <Route exact path='/home/snapshot/IncidentGuideline' element={< IncidentGuideline />}></Route>
               <Route exact path='/home/snapshot/PKEs' element={< HighPriorityPKEs />}></Route>
               <Route exact path='/home/snapshot/RCAs' element={< RCAs />}></Route>
+              <Route exact path='*' element={<NoPageFound/>}></Route>
            </Route>
            <Route exact path='/signout' element={< Signout />}></Route>
-          <Route exact path='*' element={<NoPageFound/>}></Route>
         </Routes>
       </div>
     </Router>

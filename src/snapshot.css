@@ -6,6 +6,10 @@
   height: 51px;
   width: 20%;
 }
+.snapshot-table td:hover {
+  box-shadow:  1px 2px 5px rgb(0 0 0 / 40%);
+  /* border: 1px solid #8e349d; */
+}
 .snapshot-table tr {
   margin: 10px;
 }

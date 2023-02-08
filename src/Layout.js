@@ -38,9 +38,9 @@ function Layout(props) {
                     <SubMenu label="Applications" icon={<AnalyticsIcon />}>
                         {
 
-                            Application && Application.map(data => {
+                            Application && Application.map((data, index) => {
                                 return (
-                                    <MenuItem icon={<ScreenshotMonitorIcon />}>
+                                    <MenuItem  key={index} icon={<ScreenshotMonitorIcon />}>
                                         <Link to={data.to} state={data.state}>{data.applicationName}</Link>
                                     </MenuItem>
                                 )

@@ -5,14 +5,17 @@
   margin-bottom: 20px;
 }
 .applicationRow span {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
 }
 .column-width {
-  width: 14%;
-  display: inline-block;
+  width: 20%;
+  display: inline-flex;
+  position: relative;
 }
 .column-separator {
-  width: 6%;
+  /* width: 6%; */
   display: inline-block;
 }
 .row-separator {
@@ -24,17 +27,18 @@
 }
 .columnHeader {
   padding: 7px;
-  border: 1px solid #cac6c6;
-  background: #cac6c6;
+  border: 1px solid #53006a;
+  background: #53006a;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+  color: #fff;
   font-size: 12px;
 }
 .kpi {
-  font-size: 8px;
+  font-size: 10px;
   margin-left: 5px;
-  white-space: nowrap;
+  white-space: break-spaces !important;
 }
 
 .healthcheck {
@@ -45,14 +49,14 @@
   width: 10px;
   display: inline-block;
   vertical-align: bottom;
-  margin-right: 12px;
+  margin-right: 20px;
 }
-.adjustmargin {
+/* .adjustmargin {
   margin-left: -30px;
-}
-.column-width-application {
+} */
+/* .column-width-application {
   width: 10%;
-}
-.adjustmargin-maintenance {
-  margin-left: 12px;
-}
+} */
+/* .adjustmargin-maintenance {
+  margin-left: 25px;
+} */

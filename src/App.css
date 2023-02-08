@@ -235,6 +235,10 @@ span:hover {
 .main-container button {
   background-color: #eb008d;
 }
+.Rag-def-button{
+  background-color: #eb008d !important;
+
+}
 .info {
   position: relative;
   bottom: -17px;
