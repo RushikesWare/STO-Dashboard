@@ -162,33 +162,7 @@
           "EOL/EOS": ""
         }
       },
-      {
-        "Application": "Siebel",
-        "Systems": {
-          "Availability": "Green",
-          "Performance": "",
-          "Capacity": "",
-          "Redundancy": ""
-        },
-        "Operational": {
-          "P1/P2 Incidents": "",
-          "Pending RCA": "",
-          "Risks": "",
-          "Issues": ""
-        },
-        "Maintenance": {
-          "PKE": "",
-          "App Patching": "",
-          "OS Patching": "",
-          "DB Patching": ""
-        },
-        "Miscellaneous": {
-          "Development Road Plan": "",
-          "Health Checks": "",
-          "L2/L3 Support": "",
-          "EOL/EOS": ""
-        }
-      },
+      
       {
         "Application": "Digital First - AEM ",
         "Systems": {

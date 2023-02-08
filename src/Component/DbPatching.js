@@ -22,7 +22,7 @@ function DbPatching() {
                             <div className='ragStatus'>{data.ragHeading}
                                 {/* <span className={data.ragStatusColor}></span> */}
                                 {AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(allinonedata => {   
-                       if(allinonedata['Application'] === applicationName) {        
+                       if(allinonedata['Application'] === applicationName) { 
                         return(<span className={!!allinonedata['Maintenance']['DB Patching'] ? allinonedata['Maintenance']['DB Patching'].toLowerCase() : 'greyEmtyStatus'}> </span>) 
                             }   } )}
                             </div>
