@@ -113,7 +113,7 @@ function Snapshot(props) {
       if (col.status) {
         {AllInOneDashboardMock && AllInOneDashboardMock[0].applications.map(allinonedata => {   
           if(allinonedata['Application'] === headerName) {        
-            td.push(<span class="StatusIcon" className={"StatusIcon" + !!allinonedata['Systems']['Availability'] ? allinonedata['Systems']['Availability'].toLowerCase() : 'greyEmtyStatus'}></span>);
+            td.push(<span className={"StatusIcon " + (!!allinonedata[row[0].name][col.name] ? allinonedata[row[0].name][col.name].toLowerCase() : 'grey')}></span>);
                }   } )}
         // td.push(<span className={"StatusIcon " + col.status}></span>);
       }
