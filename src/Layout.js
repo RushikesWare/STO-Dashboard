@@ -51,7 +51,7 @@ function Layout(props) {
                     </SubMenu>
                     <MenuItem icon={<DashboardCustomizeIcon />} onClick={() => navigate("/home/allInOneDashboard")} > All-in-One Dashboard</MenuItem>
                     <MenuItem icon={<SettingsApplicationsIcon />} onClick={() => navigate("/home/settings")}> Settings</MenuItem>
-                    <MenuItem icon={<ExitToAppIcon />} onClick={() => navigate("/signout")}> Signout</MenuItem>
+                    <MenuItem icon={<ExitToAppIcon />} onClick={() => navigate("/")}> Signout</MenuItem>
                 </Menu>
             </Sidebar>
         </div>
