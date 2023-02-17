@@ -842,17 +842,17 @@
             "Red": {
                 "id": 1,
                 "color": "red",
-                "definition": "One or more P2 incidents, and Frequency > 1"
+                "definition": "One or more P1 incidents"
             },
             "Yellow": {
                 "id": 2,
                 "color": "warning",
-                "definition": "One or more P2 incidents, and Frequency = 1"
+                "definition": "One or more P2 incidents"
             },
             "Green": {
                 "id": 3,
                 "color": "green",
-                "definition": "Zero P2 incidents "
+                "definition": "Zero P1/P2 incidents"
             }
         }
     },
